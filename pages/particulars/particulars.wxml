@@ -1,0 +1,54 @@
+<view>
+  <view class='content-title'>深圳增值税普通发票</view>
+  <view>
+    <view class='content-box'>
+      <span class="content-left">金额</span>
+      <span class="content-right">￥330.11</span>
+    </view>
+    <view class='content-box'>
+      <span class="content-left">税额</span>
+      <span class="content-right">￥330.11</span>
+    </view>
+    <view class='content-box brBox'>
+      <span class="content-left">税价合计</span>
+      <span class="content-right">￥330.11</span>
+    </view>
+    <view class='content-box'>
+      <span class="content-left">发票代码</span>
+      <span class="content-right">￥330.11</span>
+    </view>
+    <view class='content-box'>
+      <span class="content-left">开票号码</span>
+      <span class="content-right">￥330.11</span>
+    </view>
+    <view class='content-box'>
+      <span class="content-left">开票日期</span>
+      <span class="content-right">￥330.11</span>
+    </view>
+    <view class='content-box brBox'>
+      <span class="content-left">税价合计</span>
+      <span class="content-right">￥330.11</span>
+    </view>
+    <view class='content-box'>
+      <span class="content-left">发票代码</span>
+      <span class="content-right">￥330.11</span>
+    </view>
+    <view class="table">
+      <view class="tr bg-w">
+        <view class="th">货物或应税劳务，服务</view>
+        <view class="th">金额</view>
+        <view class="th ">费率</view>
+        <view class="th ">税额</view>
+      </view>
+      <view class="tr bg-g" wx:for="{{listData}}">
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+        <view class="td">{{item.type}}</view>
+        <view class="td">{{item.type}}</view>
+      </view>
+    </view>
+  
+  
+  </view>
+
+</view>

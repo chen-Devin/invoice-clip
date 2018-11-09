@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/particulars/particulars",
+    "pages/index/index",
+    "pages/enter/enter",
+    "pages/delete/delete",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的票夹",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "上传发票",
+        "iconPath": "/img/上传（未选中状态）@2x.png",
+        "selectedIconPath": "img/上传发票（选中状态）@2x.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "发票夹",
+        "iconPath": "/img/票夹（未选中状态） copy@2x.png",
+        "selectedIconPath": "img/票夹（选中状态） copy 4@2x.png"
+      }
+    ]
+  }
+}

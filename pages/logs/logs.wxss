@@ -1,0 +1,207 @@
+.tab-box{
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 10rpx;
+  border-bottom: 1px silid #FFFFFF;
+}
+.pendint-tab {
+  width: 49%;
+  border-right: 2px solid #C8C8C8;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.ending-tab{
+  width: 49%;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.bre{
+  color: #378AE5;
+}
+
+.touch-item {
+
+font-size: 14px;
+
+display: flex;
+
+justify-content: space-between;
+
+border-bottom:1px solid #ccc;
+
+width: 100%;
+
+overflow: hidden
+
+}
+
+.content {
+
+  width: 100%;
+
+  line-height: 22px;
+
+  margin-right:0;
+
+  -webkit-transition: all 0.4s;
+
+  transition: all 0.4s;
+
+  -webkit-transform: translateX(90px);
+
+  transform: translateX(90px);
+
+  margin-left: -90px
+
+}
+
+.del {
+
+  background-color: orangered;
+
+  width: 90px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: #fff;
+
+  -webkit-transform: translateX(90px);
+
+  transform: translateX(90px);
+
+  -webkit-transition: all 0.4s;
+
+  transition: all 0.4s;
+
+}
+
+.touch-move-active .content,
+
+.touch-move-active .del {
+
+  -webkit-transform: translateX(0);
+
+  transform: translateX(0);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper-tab{  
+    width: 100%;  
+    border-bottom: 2rpx solid #eee;  
+    text-align: center;  
+    line-height: 80rpx;
+    background: #fff;
+    font-size: 14px;
+}  
+.on{ 
+  color: #dd2727;  
+  border-bottom: 5rpx solid #dd2727;
+}  
+.swiper-tab-list{  
+  font-size: 29rpx;  
+    display: inline-block;  
+    width: 49.5%;  
+    color: #333; 
+}
+.invoice-box{
+  margin: 10rpx 0;
+  background-color: #F2F3F3;
+}
+.invoice-line{
+  display: flex;
+  justify-content: space-between;
+}
+.invoice-info{
+  font-size: 28rpx;
+  height: 90px;
+  width: 100%;
+  background-color: #FFF;
+
+  -webkit-transition: all 0.4s;
+
+  transition: all 0.4s;
+
+  -webkit-transform: translateX(90px);
+
+  transform: translateX(90px);
+
+  margin-left: -90px
+}
+.info-one{
+  margin-left: 20rpx;
+  padding-left: 20rpx;
+  border-bottom: 1px rolid #EAEAEA;
+  font-size: 34rpx;
+  height: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+.info-two{
+  margin-left: 20rpx;
+  padding-left: 20rpx;
+  height: 45px;
+  line-height: 45px;
+}
+.info-two-data{
+  font-size: 28rpx;
+  color: #6E6E6E;
+}
+.info-two-sum{
+  font-size: 32rpx;
+  color: #333333;
+  display: inline-block;
+  margin-left: 20rpx;
+}
+.info-two-money{
+  color: #D40606;
+}
+.list-del{
+  width: 90px;
+  height: 90px;
+  background-color: #F85D70 ;
+  line-height: 90px;
+  font-size: 32rpx;
+  color: #FFF;
+  text-align: center;
+  
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  -webkit-transform: translateX(90px);
+
+  transform: translateX(90px);
+
+  -webkit-transition: all 0.4s;
+
+  transition: all 0.4s;
+}

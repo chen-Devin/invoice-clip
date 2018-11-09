@@ -1,0 +1,24 @@
+.view-box{
+  margin: 30rpx 15px;
+}
+.view-line{
+  display: flex;
+  flex-direction:row;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #EAEAEA;
+}
+.weui-title{
+  width:200rpx;
+  /* font-size: 18rpx; */
+  color: #333333;
+  font-weight: 700;
+}
+.weui-input{
+  width: 70%;
+}
+.discern-button{
+  width: 70%;
+  height: 70%;
+  color: #fff ;
+  background-color: #78B3F3 ;
+}

@@ -1,0 +1,44 @@
+<view>
+  <view class="page-section">
+    <view class="weui-cells weui-cells_after-title  view-box">
+      <view class="weui-cell weui-cell_input view-line">
+        <text class='weui-title'>发票代码：</text>
+        <input class="weui-input" type="number"  placeholder="请输入10位或12位的发票代码" />
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title  view-box">
+      <view class="weui-cell weui-cell_input view-line">
+        <text  class='weui-title'>发票号码：</text>
+        <input class="weui-input" type="number" placeholder="请输入8位的发票号码" />
+      </view>
+    </view>
+  <view class="section  view-line view-box">
+    <text  class='weui-title'>开票日期：</text>
+    <picker mode="date" value="{{todayDate}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+      <view class="picker">
+        {{todayDate}}
+      </view>
+    </picker>
+  </view>
+
+    <view class="weui-cells weui-cells_after-title  view-box">
+      <view class="weui-cell weui-cell_input view-line">
+        <text  class='weui-title'>校验码：</text>
+        <input class="weui-input" type="number" placeholder="请输入20位或后六位的校验码" />
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title  view-box">
+      <view class="weui-cell weui-cell_input view-line">
+        <text  class='weui-title'>合计：</text>
+        <input class="weui-input" type="number" placeholder="请输入合计金额" />
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title  view-box">
+      <view class="weui-cell weui-cell_input view-line">
+        <text  class='weui-title'>摘要：</text>
+        <input class="weui-input" type="number" placeholder="输入发票事宜或标记(选填)" />
+      </view>
+    </view>
+  </view>
+  <button class='discern-button'>识别</button>
+</view>

@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button bindtap="QrcodeUploadClick" class='QrcodeUpload'>扫描上传</button>
+    <button  bindtap="enteringUploadClick" class='enteringUpload'>录入要素上传</button>
+  </view>
+</view>
