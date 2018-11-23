@@ -40,5 +40,5 @@
       </view>
     </view>
   </view>
-  <button class='discern-button'>识别</button>
+  <button class='discern-button' bindtap="recognitionClick">识别</button>
 </view>

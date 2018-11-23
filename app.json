@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/particulars/particulars",
     "pages/index/index",
     "pages/enter/enter",
-    "pages/delete/delete",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/particulars/particulars",
+    "pages/delete/delete"
   ],
   "window": {
     "backgroundTextStyle": "light",

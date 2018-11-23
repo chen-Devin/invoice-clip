@@ -34,6 +34,7 @@
 }
 .table {
   border: 0px solid darkgray;
+  color: #7B7B7B;
 }
 .tr {
   display: flex;
@@ -41,6 +42,7 @@
   justify-content: center;
   height: 3rem;
   align-items: center;
+  height: 60rpx;
 }
 .td {
     width:40%;
@@ -55,4 +57,14 @@
   display: flex;
   height: 1rem;
   align-items: center;
+}
+.button-box{
+  width: 60%;
+  margin: 30rpx auto;
+}
+.upload-btn{
+  background-color: #78B3F3;
+  color: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
 }

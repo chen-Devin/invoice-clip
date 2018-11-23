@@ -9,4 +9,9 @@ Page({
       date: e.detail.value
     })
   },
+  recognitionClick(){
+    wx.navigateTo({
+      url: '../particulars/particulars'
+    })
+  }
 })

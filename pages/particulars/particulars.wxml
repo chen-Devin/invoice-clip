@@ -33,7 +33,7 @@
       <span class="content-left">发票代码</span>
       <span class="content-right">￥330.11</span>
     </view>
-    <view class="table">
+    <view class="table brBox">
       <view class="tr bg-w">
         <view class="th">货物或应税劳务，服务</view>
         <view class="th">金额</view>
@@ -47,6 +47,15 @@
         <view class="td">{{item.type}}</view>
       </view>
     </view>
+    <view class='content-box brBox'>
+      <span class="content-left">摘要</span>
+      <span class="content-right">招待费</span>
+    </view>
+    <view class='button-box'>
+      <button class='upload-btn' size="default" bindtap="confirmUpload"> 确认上传 </button>
+    </view>
+
+
   
   
   </view>
